@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="P12.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <!--<asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>-->
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            height: 477px;
+        }
+        .auto-style2 {
+            height: 228px;
+        }
+        .auto-style4 {
+            width: 1135px;
+            height: 475px;
+        }
+        .auto-style5 {
+            width: 1129px;
+            height: 245px;
+        }
+        .auto-style11 {
+            height: 26px;
+            width: 200px;
+        }
+        .auto-style12 {
+            height: 26px;
+            width: 202px;
+        }
+        .auto-style13 {
+            height: 95px;
+        }
+        .auto-style17 {
+            height: 95px;
+            width: 203px;
+        }
+        .auto-style18 {
+            height: 26px;
+            width: 203px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="auto-style4">
+           
+                <table class="auto-style1">
+                    <tr>
+                        <td colspan="4" class="auto-style2" style="background-color: #FFCCFF">
+                            <img alt="" src="logo_2020.png" class="auto-style5" /></td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="lightblue" align="center" class="auto-style18"><a href="AboutUS.aspx" style="border-style: groove; background-color: #99FF99; font-size: large; font-weight: bold;">About Us</a></td>
+                        <td bgcolor="lightblue" align="center" class="auto-style11"><a href="Register.aspx" style="border-style: groove; background-color: #66FF66; font-size: large; font-weight: bold;">Register</a></td>
+                        <td bgcolor="lightblue" align="center" class="auto-style12"><a href="login.aspx" style="border-style: groove; background-color: #66FF66; font-weight: bold; font-size: large;">Login</a></td>
+                        <td bgcolor="lightblue" align="center" class="auto-style11"><a href="contact.aspx" style="border-style: groove; background-color: #66FF66; font-weight: bold; font-size: large;">Contact</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style17" style="background-color: #00FFFF">
+                            <marquee height=100% direction="up" width=100%>Welcome To The University📖📚</marquee></td>
+                        <td colspan="3" class="auto-style13" style="background-color:aquamarine"><asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" style="background-color: #996600">Name:Mohit Chaudhary </td>
+                    </tr>
+                </table>
+            
+        </div>
+    </form>
+</body>
+</html>
